@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM DAFTAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .full-page-gradient{
+            height: 100vh;
+            background: linear-gradient(135deg, #0dac4f 0%, #ffa011);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-primary{
+            background-color: #dda408;
+            border: none;
+        }
+        .btn-primary:hover{
+            background-color: #b17b07;
+        }
+
+    </style>
+</head>
+<body class="full-page-gradient">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card p-4">
+                <div class="card-body">
+                    <h4 class="text-center mb-4">Form Daftar</h4>
+
+                    <form>
+                        <div class="mb-2">
+                            <label class="form-label">Username :</label>
+                            <input type="text" class="form-control" placeholder="masukkan username">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label"> Jenis Kelamin : </label><br>
+                            <input type="radio" name="kelamin" value="Laki - laki"> Laki-laki <br>
+                            <input type="radio" name="kelamin" value="Perempuan"> Perempuan
+                            
+                        </div>
+
+                        <div class="mb 3">
+                            <label class="form-label">Tanggal lahir :
+                            <input type="date" class="form-control">
+                            </label>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password : </label>
+                            <input type="password" class="form-control" placeholder="masukkan password">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Konfirmasi Password : </label>
+                            <input type="password" class="form-control" placeholder="ulangi password">
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary w-100">DAFTAR</button>
+                            <button type="reset" class="btn btn-outline-secondary w-100 mt-2">RESET</button>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <small>Sudah punya akun? 
+                                <a href="latihanJS.html">Login di sini</a>
+                            </small>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
